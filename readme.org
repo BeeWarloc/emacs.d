@@ -2,7 +2,7 @@
 ** Package Sources
 #+BEGIN_SRC emacs-lisp
   (require 'package)
-  (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+  (add-to-list 'package-archives '("melpa" . "https://www.mirrorservice.org/sites/melpa.org/packages/") t)
   (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
   ;; Don't need to check every time.
   ;; (when (not package-archive-contents)
