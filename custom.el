@@ -6,7 +6,7 @@
  '(mouse-yank-at-point t)
  '(package-selected-packages
    (quote
-    (which-key ido-describe-bindings ido-describe-prefix-bindings ido-grid-mode use-package)))
+    (magit which-key ido-describe-bindings ido-describe-prefix-bindings ido-grid-mode use-package)))
  '(xterm-mouse-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
