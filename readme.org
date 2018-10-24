@@ -70,6 +70,13 @@ Some quick essentials
                                   (abbreviate-file-name (buffer-file-name))))))
   ;; Disable toolbar
   (tool-bar-mode -1)
+
+  ;; Crux - A Collection of Ridiculously Useful eXtensions for Emacs
+  ;; Using it for moving to the first non-whitespace character of a line, instead
+  ;; of start of line
+  (use-package crux
+       :ensure t
+       :bind (("C-a" . crux-move-beginning-of-line)))
 #+END_SRC
 
 * Better Defaults
