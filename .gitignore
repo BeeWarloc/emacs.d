@@ -25,3 +25,7 @@ games
 .mc-lists.el
 smex-items
 ac-comphist.dat
+.last-package-update-day
+projectile-bookmarks.eld
+projectile.cache
+irony
