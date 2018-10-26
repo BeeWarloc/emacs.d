@@ -81,6 +81,8 @@ Some quick essentials
   (use-package crux
        :ensure t
        :bind (("C-a" . crux-move-beginning-of-line)))
+
+  (setq create-lockfiles nil)
 #+END_SRC
 
 * Better Defaults
