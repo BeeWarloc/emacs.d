@@ -313,6 +313,14 @@ Which-key is a minor mode for Emacs that displays the key bindings following you
     (setq projectile-enable-caching t)
     (projectile-global-mode))
 #+END_SRC
+** Editor config
+See here for details: https://github.com/editorconfig/editorconfig-emacs
+#+BEGIN_SRC emacs-lisp
+(use-package editorconfig
+  :ensure t
+  :config
+  (editorconfig-mode 1))
+#+END_SRC
 * Autocompletion
 ** Company
 
