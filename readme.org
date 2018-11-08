@@ -261,7 +261,6 @@ the killer convenience of using =bind-key=.
 #+END_SRC
 
 * Extensions
-
 ** Magit
 
 The emacs git client.
@@ -320,6 +319,11 @@ See here for details: https://github.com/editorconfig/editorconfig-emacs
   :ensure t
   :config
   (editorconfig-mode 1))
+#+END_SRC
+** Bitbake
+Bitbake integration with emacs. See https://github.com/canatella/bitbake-el for details.
+#+BEGIN_SRC emacs-lisp
+  (use-package bitbake :ensure t)
 #+END_SRC
 * Autocompletion
 ** Company
